@@ -1,6 +1,6 @@
 // SearchBar.js
 import * as React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { Searchbar } from "react-native-paper";
 
 const SearchBar = ({ containerStyle }) => {
@@ -28,6 +28,7 @@ const SearchBar = ({ containerStyle }) => {
 };
 
 const styles = StyleSheet.create({
+  
   searchContainer: {
     width: "100%",
   },
